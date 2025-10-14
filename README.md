@@ -3,6 +3,22 @@
 - This project is a Node.js-based Solana blockchain monitoring bot designed to detect and track large transfers of SOL and USDC tokens. It actively monitors specified Solana wallet addresses for significant outgoing or incoming transactions and automatically logs recipient addresses to a file named whales_address.txt. Simultaneously, the bot sends instant transaction notifications to a designated Telegram channel, enabling real-time alerts about substantial crypto movements.
 - By integrating Solana’s Web3 APIs and using Telegram Bot APIs, this solution provides an efficient and automated way to monitor "whale" activities on the Solana blockchain, facilitating prompt responses and improved situational awareness for traders, analysts, or crypto enthusiasts.
 
+---
+
+## Let's Connect!,
+
+<a href="mailto:fenrow325@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+<a href="https://t.me/github_a5" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+<a href="https://discord.com/users/fenrow_325" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+</a>
+
+---
+
 ## Features
 
 - 🔍 **Real-time Monitoring**: Monitors specified Solana addresses for outgoing transfers
@@ -96,3 +112,11 @@ Each notification includes:
 - Valid Helius API key
 - Valid Telegram bot token and chat ID
 - Internet connection for real-time monitoring
+
+---
+
+## 📞 Contact Information
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+📱 **Telegram**: [@A5-](https://t.me/github_a5)  
+---
