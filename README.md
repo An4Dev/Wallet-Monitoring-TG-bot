@@ -78,10 +78,12 @@ Each notification includes:
 - Sender and recipient addresses
 - Transaction signature with Solscan link
 - Slot number
-- Whether it's a new whale address/n
+- Whether it's a new whale address
 
-![swap-detection](img/swap-detection.png)
-![transfer-detection](img/large-detection.png)
+<div style="text-align: center;">
+  ![swap-detection](img/swap-detection.png)
+  ![transfer-detection](img/large-detection.png)
+</div>
 
 
 ## Error Handling
