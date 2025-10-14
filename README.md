@@ -80,11 +80,8 @@ Each notification includes:
 - Slot number
 - Whether it's a new whale address
 
-<div style="text-align: center;">
-  ![swap-detection](img/swap-detection.png)
-  ![transfer-detection](img/large-detection.png)
-</div>
-
+<img src="img/swap-detection.png" alt="swap-detection" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="img/large-detection.png" alt="transfer-detection" style="display: block; margin-left: auto; margin-right: auto;">
 
 ## Error Handling
 
