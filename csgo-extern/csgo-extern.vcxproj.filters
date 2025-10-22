@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSPMap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="hitbox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\inputkeys.cpp">
+      <Filter>Source\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\font.cpp">
+      <Filter>Source\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\overlay.cpp">
+      <Filter>Source\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="init\dynamic.cpp">
+      <Filter>Source\init</Filter>
+    </ClCompile>
+    <ClCompile Include="init\interface.cpp">
+      <Filter>Source\init</Filter>
+    </ClCompile>
+    <ClCompile Include="init\static.cpp">
+      <Filter>Source\init</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\process.cpp">
+      <Filter>Source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\renderer.cpp">
+      <Filter>Source\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\math.cpp">
+      <Filter>Source\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\sprite.cpp">
+      <Filter>Source\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\d3d_menu.cpp">
+      <Filter>Source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\consolefuncs.cpp">
+      <Filter>Source\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Files.cpp">
+      <Filter>Source\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\config.cpp">
+      <Filter>Source\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp.cpp">
+      <Filter>Source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot.cpp">
+      <Filter>Source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\triggerbot.cpp">
+      <Filter>Source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc.cpp">
+      <Filter>Source\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hitbox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BSPMap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\dt_common.h">
+      <Filter>Headers\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\dt_recv.h">
+      <Filter>Headers\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\inputkeys.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\color.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\d3d.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\font.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\overlay.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\renderer.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\module.h">
+      <Filter>Headers\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\process.h">
+      <Filter>Headers\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="init\dynamic.h">
+      <Filter>Headers\init</Filter>
+    </ClInclude>
+    <ClInclude Include="init\interface.h">
+      <Filter>Headers\init</Filter>
+    </ClInclude>
+    <ClInclude Include="init\static.h">
+      <Filter>Headers\init</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\Sprite.h">
+      <Filter>Headers\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\d3d_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu_elements.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\aimbot_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\trigger_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\visuals_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\misc_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\consolefuncs.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\files.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\config.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\config_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\WebShit.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.h">
+      <Filter>Headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot.h">
+      <Filter>Headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\triggerbot.h">
+      <Filter>Headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc.h">
+      <Filter>Headers\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{36838b65-0095-48a2-9cb7-b6b460fc94c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7c5d093e-ce0a-4fb7-ab66-8b180649e0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\valve">
+      <UniqueIdentifier>{af75d7a1-00a4-4f43-8af4-88f738b4d211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\overlay">
+      <UniqueIdentifier>{12f0693b-ad7a-4e9b-89c5-2ede0b975d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\init">
+      <UniqueIdentifier>{e47d85c4-8dbd-4d2a-bd61-b06e104dd3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\init">
+      <UniqueIdentifier>{fbd1d41e-208f-4f6e-9e73-13f3956742ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\overlay">
+      <UniqueIdentifier>{2fea2f13-2f42-4a3e-a7ab-9c7c69672a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\memory">
+      <UniqueIdentifier>{4d6954ef-82d7-4741-ab02-7923bf1376d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\memory">
+      <UniqueIdentifier>{5d6f8b31-dfc2-4481-b261-ea478f7563d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\menu">
+      <UniqueIdentifier>{1904f3d0-67bc-43fc-9c86-b43d52b0f6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\menu">
+      <UniqueIdentifier>{cd6d3e71-58ea-44ad-aff2-e96e92b1b714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Utils">
+      <UniqueIdentifier>{7baf66e7-8928-4645-822f-df77ea40c371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utlis">
+      <UniqueIdentifier>{e6372f82-2efd-4531-b6a5-a401c8bf99a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\features">
+      <UniqueIdentifier>{0e9217b2-80b5-4eba-b8bb-81815359babe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\features">
+      <UniqueIdentifier>{788b3060-e2d5-4bd0-b608-94458eaa0c4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
