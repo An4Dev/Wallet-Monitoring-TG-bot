@@ -13,14 +13,17 @@ void ESP::DrawESP( int index )
 
 	if( EntityList[ index ].GetTeamNum() != LocalEntity.GetTeamNum() )
 	{
+		///nullptr sucks like u scripty
 		if( !m_enemy )
 			return;
 
-		if( m_legit && !EntityList[ index ].IsVisible() ) // legit esp
+		// makes shit go ninja af when no one can see them legit af
+		if( m_legit && !EntityList[ index ].IsVisible() ) 
 			if( !EntityList[ index ].IsSpotted() )
 				return;
 
-		if( EntityList[ index ].IsVisible() ) // If Aimbot hitbox is visible return true
+		//real m3n shit coz it's a bsp vis check no dalmation mask 4 me
+		if( EntityList[ index ].IsVisible() )
 			color = color = Color( 233, 62, 51 );
 		else
 			color = Color::Yellow();
@@ -112,6 +115,7 @@ void ESP::DrawESP( int index )
 			}
 		}
 
+		//good af anime sprites, get that ASMR loaded up and press play when you 1 tap nigas
 		if( m_anime )
 			g_pRenderer->DrawSprite( m_animesprite, vAnimeme.x, vAnimeme.y, w / 300 ); // divide by texture width
 	}

@@ -1,4 +1,43 @@
 #include "include.h"
+/*
+
+                                     Jcccc,        ,d$$$b,
+                                     J$$$$$$c     ,d$$$$$$,
+   spooky ghost will fuck your       $$$$$$$$$c,,c$$$$P$$$$,
+   shit up if you c&p into some      J$$$$$$$$$$$$$$$$$$3$$$$,
+   shitty p2c garbage               $$$$$$$$$$$$$$$$$$$F$$$$$$c=
+                                   J$$$$$$$$$$$$$?$$$$$F  """
+                                zcd$$$$$$$$$$$$$Fb3$$$"
+                             ,c=cc$$$$$$$$$$??$$$c
+                          ,z$"   `$$$$$$$$$??$.?$$b
+                         d$$",d$$c$$$$$$P"  ?$Fd$$$$
+                       ,$$$,dP" "$$$$$$$$$$c `$$$$$$r
+                      z$$$$P"=$c $$$$$$P""?$, $$$$$$$
+             .,,ccc,,4$$$$$'  `$ $$$$"-cc  $$,$$$$$$$
+         ,c$$$$$$$$$$$$$$$$ ,,d$,$$P   $$FJ$$$$$$$E3F
+        ,$$$$$$$$$$$$$$$$$$L"$$'$$$ ,zd$$ $$$$$$$$???-
+        $$$$$$$$$$$$$$$$P""??cc$$$$ $$$F,$$$$$$$$$$$$$$$$ccc,.
+        $$$$$$$$$$$$$$P d$$$$bc3$$$bc,cd$$$$$$$$$$$$$$$$$$$$$$$bc.
+         $$$$$$$$$$$$$F:$$$$$$$$$P?$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b.
+         `$$$$$$$$$$$$b.?$$$$$$$$$c"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$c
+           ?$$$$$$$$$$$ c,?$$$$$$$",$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$h
+            `$$$$$$$$$"d$$$cc,,,,c $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F
+             `?$$$$$$$z$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F
+               ?$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$?$$$$$$$$$P"
+                $$$$$$$$$?$$$$$$$'d$$$$$$$$$$$$$$$$F',ccccccc,"''
+                `$$$$$$$F "$$P$$P,$$$$$$$$$$$$$$P",$$$$$$$$$$$$$bc.
+                 $$$$$P$$$$$$ $$b$$$$$$$$$$$$P?",$$$$$$$$$$$$$$$$$$$c
+     .,,,,.      `$$$$$,"???",$$$$$$$$$$$$CCh$'J$$$$$$$$$$$$$$$$$$$$$$b.
+ ,c$$$$$$$$$$c, $ $$$$$$$$$$$$$$$$$$$$$$$$$$$'d$$$$$$$$$$$$$$$$$$$$$$$$$$c
+ $$$$$$$$$$$$$$ $ ?$$$$$$$$$$$$$$$$$$$$$$$$$'c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$$$$$$$$$ $L`$$$$$$$$$$$$$$$$$$$$$$$$$,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$$$$$$$$$ $$,`$$$$$$$$Fl$$$$$$$$$$$$$L$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$$$$$$$$$ $$$c,?$$$P"l$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$$$$$$$$$,`$$$$$cccd$$$$$?$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$$$$$$$$$$ ?$$$$$$$$$$$",$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$$)$$$$$$$$$,"$$$$$$P",c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ $$$$$FJ$$$$$$$$$$b,,..,,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
 
 using std::cout;
 using std::endl;
@@ -40,6 +79,8 @@ bool BSPMap::IsNull()
 	return false;
 }
 
+
+
 bool BSPMap::load( const char* path, const char* mapName )
 {
 	strcpy( m_path, path );
@@ -48,7 +89,7 @@ bool BSPMap::load( const char* path, const char* mapName )
 	std::string fPath( m_path );
 	fPath += "\\csgo\\maps\\";
 	fPath += m_mapName;
-
+	// shit man you really want this shit?
 	HANDLE hFile = CreateFile( fPath.c_str(), GENERIC_READ, NULL, NULL, OPEN_ALWAYS, NULL, NULL );
 	if( hFile == NULL )
 	{
@@ -72,6 +113,7 @@ bool BSPMap::load( const char* path, const char* mapName )
 		return false;
 	}
 
+	// lol jk don't include this, trust me on this you don't need to close the handle
 	CloseHandle( hFile );
 
 	m_header	= ( dheader_t* )m_data;
@@ -180,12 +222,12 @@ bool BSPMap::Visible( const Vector3 &vStart, const Vector3 &vEnd ) // added in c
 
 	dleaf_t* leaf = nullptr;
 
-	while( steps ) // whoops this broke it
+	while( steps )
 	{
 		point += direction;
 		leaf = GetLeafFromPoint( point );
-		
-		if( leaf->contents & CONTENTS_SOLID )	// Tried differenent masks, none seem to work :/
+		// Tried differenent masks, none seem to work :/ becauce ur a bitch tbh tbf fam
+		if( leaf->contents & CONTENTS_SOLID )	
 			return false;
 
 		--steps;

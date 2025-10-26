@@ -1,5 +1,7 @@
 #include "include.h"
 
+/*will still skull fuck you tbh*/
+
 Globals* g_pGlobals = new Globals;
 
 float Globals::GetCurTime()

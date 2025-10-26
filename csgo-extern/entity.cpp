@@ -1,5 +1,7 @@
 #include "include.h"
 
+/*I have a big dick so the skull fucking will hurt*/
+
 Entity LocalEntity;
 Entity EntityList[ 65 ];
 

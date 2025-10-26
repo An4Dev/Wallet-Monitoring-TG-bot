@@ -1,5 +1,7 @@
 #include "include.h"
 
+/*gtfo out of here you can't handle the memes on this page*/
+
 using std::min;
 using std::max;
 
