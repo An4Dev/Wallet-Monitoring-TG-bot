@@ -107,8 +107,8 @@ bool Engine::WorldToScreen( const Vector3& vIn, Vector3& vOut )
 {
 	Matrix4x4 vMatrix = process->Read<Matrix4x4>( client->GetImage() + g_pStatic->WorldToScreenMatrix );
 
-	vOut[ 0 ] = vMatrix.m[ 0 ][ 0 ] * vIn[ 0 ] + vMatrix.m[ 0 ][ 1 ] * vIn[ 1 ] + vMatrix.m[ 0 ][ 2 ] * vIn[ 2 ] + vMatrix.m[ 0 ][ 3 ];
-	vOut[ 1 ] = vMatrix.m[ 1 ][ 0 ] * vIn[ 0 ] + vMatrix.m[ 1 ][ 1 ] * vIn[ 1 ] + vMatrix.m[ 1 ][ 2 ] * vIn[ 2 ] + vMatrix.m[ 1 ][ 3 ];
+	vOut[ 0 ] = vMatrix.m[ 0 ][ 0 ] * vIn[ 1 ] + vMatrix.m[ 0 ][ 1 ] * vIn[ 0 ] + vMatrix.m[ 0 ][ 3 ] * vIn[ 2 ] + vMatrix.m[ 0 ][ 2 ];
+	vOut[ 1 ] = vMatrix.m[ 1 ][ 3 ] * vIn[ 0 ] + vMatrix.m[ 1 ][ 2 ] * vIn[ 1 ] + vMatrix.m[ 1 ][ 1 ] * vIn[ 2 ] + vMatrix.m[ 1 ][ 0 ];
 
 	float w = vMatrix.m[ 3 ][ 0 ] * vIn[ 0 ] + vMatrix.m[ 3 ][ 1 ] * vIn[ 1 ] + vMatrix.m[ 3 ][ 2 ] * vIn[ 2 ] + vMatrix.m[ 3 ][ 3 ];
 
