@@ -7,13 +7,13 @@
 
 ## Let's Connect!,
 
-<a href="mailto:fenrow325@gmail.com" target="_blank">
+<a href="mailto:traceyrun2@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
 </a>
-<a href="https://t.me/github_a5" target="_blank">
+<a href="https://t.me/David19922" target="_blank">
   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
 </a>
-<a href="https://discord.com/users/fenrow_325" target="_blank">
+<a href="https://discord.com/users/bold0163" target="_blank">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
 </a>
 
