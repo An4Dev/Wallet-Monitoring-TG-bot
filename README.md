@@ -118,5 +118,5 @@ Each notification includes:
 ## 📞 Contact Information
 For questions, feedback, or collaboration opportunities, feel free to reach out:
 
-📱 **Telegram**: [@A5-](https://t.me/github_a5)  
+📱 **Telegram**: [@A5-](https://t.me/@David19922)  
 ---
